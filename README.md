@@ -1,5 +1,7 @@
 # P5.js Platformer Game
 
+**Portfolio focus:** managing game state, user input, collision behaviour, and audio within a browser game loop.
+
 A browser-based platform game built with JavaScript and p5.js. The project includes character movement, collectibles, sound effects, obstacles, scoring, and a complete game loop.
 
 ## Tech Stack
@@ -19,9 +21,13 @@ A browser-based platform game built with JavaScript and p5.js. The project inclu
 
 ## How to Run
 
-Open `index.html` in a browser.
+Serve the repository root with a local HTTP server so assets load consistently. For example, with Python installed:
 
-For best results, use a local server such as the VS Code Live Server extension.
+```bash
+python -m http.server 8000
+```
+
+Then open **http://localhost:8000**. The VS Code Live Server extension is another option.
 
 ## What I Learned
 
